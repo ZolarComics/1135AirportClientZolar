@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>_1135AirportClient</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ModelsApi">
+      <HintPath>..\..\1135AirportApi-master\ModelsApi\bin\Debug\net5.0\ModelsApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
